@@ -188,7 +188,7 @@ void loop() {
     maxTemp.publish(Tmax);
     currentTemp.publish(Tnow);
     minTemp.publish(Tmin);
-    mqtt.disconnect();
+//    mqtt.disconnect();  DON'T USE THIS WITH ADAFRUIT IO
   }
 }
 
